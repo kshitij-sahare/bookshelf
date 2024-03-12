@@ -1,0 +1,18 @@
+    .card{
+        height: 520px;
+    }
+img{
+    height: 290px;
+    border: 2px solid peachpuff;
+
+}
+button{
+position: absolute;
+left:0;
+bottom:0px;
+}
+.card{
+    background-color: rgba(1,1,1, 0.6);
+    border: 2px solid peachpuff;
+    color: #f1f1f1;
+}

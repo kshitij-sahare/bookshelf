@@ -1,0 +1,29 @@
+
+        
+        <div class="container ">
+            <h1 class="text text-center mt-4" style=" color: #f1f1f1; ">Welcome to the BookShelf </h1>
+            <div class="row g-0">
+        
+                <div class="col-md-5 offset-1 mt-5" *ngFor="let category of categories">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="{{category.image}}" alt="Trendy Pants and Shoes" class="img-fluid rounded-start" />
+                            </div>
+                            <!-- {{category.image}} -->
+                            <div class="col-md-8">
+                                <div class="card-body">
+
+                                    <h5 class="card-title">{{ category.name }}</h5>
+                                    <h5 class="card-title">{{ category.description }}</h5>
+                                    <div class="text text-center">
+                                        <div class="card-footer">
+                                            <a routerLink="/books/{{ category.id }}" class="btn btn-primary">View Books</a>    
+                                        </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>

@@ -1,0 +1,716 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Fantasy",
+      "description": "Books that feature imaginary or made-up stories.",
+      "image": "../../assets/fantasy.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Non-fiction",
+      "description": "Books that contain factual information or real-life accounts.",
+      "image": "../../assets/Non-fiction.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Children's",
+      "description": "Books that are intended for young readers, typically under the age of 12.",
+      "image": "../../assets/Children.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Science Fiction",
+      "description": "Books that feature futuristic or imaginary science and technology.",
+      "image": "../../assets/Science.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Biography",
+      "description": "Books that tell the story of someone's life, typically a famous or noteworthy person.",
+      "image": "../../assets/Biography.jpg"
+    },
+    {
+      "id": 6,
+      "name": "History",
+      "description": "Books that focus on past events and people.",
+      "image": "../../assets/History.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Business",
+      "description": "Books that provide advice and strategies for succeeding in the business world.",
+      "image": "../../assets/Business.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Cooking",
+      "description": "Books that contain recipes and instructions for preparing various types of food.",
+      "image": "../../assets/Cooking.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Travel",
+      "description": "Books that focus on various travel destinations and provide tips for planning trips.",
+      "image": "../../assets/Travel.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Art",
+      "description": "Books that focus on various forms of art, such as painting, sculpture, and photography.",
+      "image": "../../assets/Art.jpg"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "category_id": 1,
+      "price": 14.99,
+      "image": "../../assets/THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpg"
+    },
+    {
+      "id": 2,
+      "title": "A Song of Ice and Fire",
+      "author": "George R.R. Martin",
+      "category_id": 1,
+      "price": 12.99,
+      "image": "../../assets/A Song of Ice and Fire, Ertaç Altınöz.jpg"
+    },
+    {
+      "id": 3,
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "category_id": 1,
+      "price": 11.99,
+      "image": "../../assets/The Name Of The Wind_ The Kingkiller Chronicle_ Book 1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Lies of Locke Lamora",
+      "author": "Scott Lynch",
+      "category_id": 1,
+      "price": 10.99,
+      "image": "../../assets/The Lies of Locke Lamora _ The Gentleman Bastard Sequence, Book One, Scott Lynch __.. _ bol.jpg"
+    },
+    {
+      "id": 5,
+      "title": "The Wheel of Time",
+      "author": "Robert Jordan",
+      "category_id": 1,
+      "price": 15.99,
+      "image": "../../assets/THE WHEEL OF TIME TIDBITS.jpg"
+    },
+    {
+      "id": 6,
+      "title": "The First Law Trilogy",
+      "author": "Joe Abercrombie",
+      "category_id": 1,
+      "price": 9.99,
+      "image": "../../assets/The First Law by Joe Abercrombie.jpg"
+    },
+    {
+      "id": 7,
+      "title": "The Malazan Book of the Fallen",
+      "author": "Steven Erikson",
+      "category_id": 1,
+      "price": 17.99,
+      "image": "../../assets/The Complete Malazan Book Of The Fallen.jpg"
+    },
+    {
+      "id": 8,
+      "title": "The Kingkiller Chronicle",
+      "author": "Patrick Rothfuss",
+      "category_id": 1,
+      "price": 11.99,
+      "image": "../../assets/The Name Of The Wind_ The Kingkiller Chronicle_ Book 1.jpg"
+    },
+    {
+      "id": 9,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "category_id": 2,
+      "price": 10.99,
+      "image": "../../assets/No, To Kill a Mockingbird shouldn’t be taught in 2018.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "category_id": 2,
+      "price": 9.99,
+      "image": "../../assets/pride and prejudice wallpaper.jpg"
+    },
+    {
+      "id": 11,
+      "title": "1984",
+      "author": "George Orwell",
+      "category_id": 2,
+      "price": 12.99,
+      "image": "../../assets/In the future, I’m right_ Letter from Aldous Huxley to George Orwell over 1984 novel sheds light on their different ideas.jpg"
+    },
+    {
+      "id": 12,
+      "title": "The Catcher in the Rye",
+      "author": "J. D. Salinger",
+      "category_id": 2,
+      "price": 11.99,
+      "image": "../../assets/The Catcher In The Rye Art Print by nindigloria.jpg"
+    },
+    {
+      "id": 13,
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "category_id": 2,
+      "price": 7.99,
+      "image": "../../assets/Beauty That Does Not Die_ The Darkness of Oscar Wilde's 'The Picture of Dorian Gray'.png"
+    },
+    {
+      "id": 14,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "category_id": 2,
+      "price": 13.99,
+      "image": "../../assets/Brave New World - Aldous Huxley Cover Poster by SpartanCell.png"
+    },
+    {
+      "id": 15,
+      "title": "The Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "category_id": 2,
+      "price": 9.99,
+      "image": "../../assets/TheAdventuresofHuckleberryFinn.jpg"
+    },
+    {
+      "id": 16,
+      "title": "The Lord of the Rings",
+      "author": "J. R. R. Tolkien",
+      "category_id": 2,
+      "price": 15.99,
+      "image": "../../assets/Awesome Art We've Found Around The Net_ Doctor Strange, Lord of the Rings, The Simpsons, Star Wars (2).png"
+    },
+    {
+      "id": 17,
+      "title": "Where the Wild Things Are",
+      "author": "Maurice Sendak",
+      "category_id": 3,
+      "price": 12.99,
+      "image": "../../assets/Where The Wild Things Are_.. and other Maurice Sendak stories.jpg"
+    },
+    {
+      "id": 18,
+      "title": "The Cat in the Hat",
+      "author": "Dr. Seuss",
+      "category_id": 3,
+      "price": 9.99,
+      "image": "../../assets/The Cat in the Hat by Dr_ Seuss_ 9780394800011 _ PenguinRandomHouse.com_ Books.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Charlotte's Web",
+      "author": "E. B. White",
+      "category_id": 3,
+      "price": 10.99,
+      "image": "../../assets/Charlotte's Web.jpg"
+    },
+    {
+      "id": 20,
+      "title": "The Giving Tree",
+      "author": "Shel Silverstein",
+      "category_id": 3,
+      "price": 8.99,
+      "image": "../../assets/The Giving Tree.jpg"
+    },
+    {
+      "id": 21,
+      "title": "The Very Hungry Caterpillar",
+      "author": "Eric Carle",
+      "category_id": 3,
+      "price": 7.99,
+      "image": "../../assets/The Very Hungry Caterpillar - Book and Finger Puppets.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Green Eggs and Ham",
+      "author": "Dr. Seuss",
+      "category_id": 3,
+      "price": 8.99,
+      "image": "../../assets/green.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Corduroy",
+      "author": "Don Freeman",
+      "category_id": 3,
+      "price": 11.99,
+      "image": "../../assets/Learning Your Name with the Corduroy Book - Growing Book by Book.png"
+    },
+    {
+      "id": 24,
+      "title": "The Velveteen Rabbit",
+      "author": "Margery Williams",
+      "category_id": 3,
+      "price": 9.99,
+      "image": "../../assets/The Velveteen Rabbit.jpg"
+    },
+    {
+      "id": 25,
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "category_id": 4,
+      "price": 12.99,
+      "image": "../../assets/The Hitchhiker's Guide to the Galaxy.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "category_id": 4,
+      "price": 15.99,
+      "image": "../../assets/Dune_ The inspiration for the blockbuster film.png"
+    },
+    {
+      "id": 27,
+      "title": "Ender's Game",
+      "author": "Orson Scott Card",
+      "category_id": 4,
+      "price": 10.99,
+      "image": "../../assets/Ender's Game.jpg"
+    },
+    {
+      "id": 28,
+      "title": "Foundation",
+      "author": "Isaac Asimov",
+      "category_id": 4,
+      "price": 13.99,
+      "image": "../../assets/Isaac Asimov - Foundation.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "category_id": 4,
+      "price": 9.99,
+      "image": "../../assets/Brave New World - Aldous Huxley Cover Poster by SpartanCell.png"
+    },
+    {
+      "id": 30,
+      "title": "The War of the Worlds",
+      "author": "H.G. Wells",
+      "category_id": 4,
+      "price": 11.99,
+      "image": "../../assets/The War of the Worlds.jpg"
+    },
+    {
+      "id": 31,
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "category_id": 4,
+      "price": 14.99,
+      "image": "../../assets/'The Hunger Games' binge-read_ Revisiting how the original trilogy began ahead of the prequel.png"
+    },
+    {
+      "id": 32,
+      "title": "Neuromancer",
+      "author": "William Gibson",
+      "category_id": 4,
+      "price": 12.99,
+      "image": "../../assets/Neuromancer.jpg"
+    },
+    {
+      "id": 33,
+      "title": "Steve Jobs",
+      "author": "Walter Isaacson",
+      "category_id": 5,
+      "price": 14.99,
+      "image": "../../assets/Steve Jobs by Walter Isaacson.png"
+    },
+    {
+      "id": 34,
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "category_id": 5,
+      "price": 16.99,
+      "image": "../../assets/Michelle Obama’s BECOMING Book Review.jpg"
+    },
+    {
+      "id": 35,
+      "title": "The Autobiography of Malcolm X",
+      "author": "Malcolm X and Alex Haley",
+      "category_id": 5,
+      "price": 12.99,
+      "image": "../../assets/The Autobiography of Malcolm X.jpg"
+    },
+    {
+      "id": 36,
+      "title": "Unbroken",
+      "author": "Laura Hillenbrand",
+      "category_id": 5,
+      "price": 13.99,
+      "image": "../../assets/Unbroken By Laura Hillenbrand _ Used Book _ 9780007580576.jpg"
+    },
+    {
+      "id": 37,
+      "title": "The Immortal Life of Henrietta Lacks",
+      "author": "Rebecca Skloot",
+      "category_id": 5,
+      "price": 11.99,
+      "image": "../../assets/The Immortal Life Of Henrietta Lacks.jpg"
+    },
+    {
+      "id": 38,
+      "title": "The Diary of a Young Girl",
+      "author": "Anne Frank",
+      "category_id": 5,
+      "price": 9.99,
+      "image": "../../assets/The Diary of a Young Girl.jpg"
+    },
+    {
+      "id": 39,
+      "title": "Born a Crime",
+      "author": "Trevor Noah",
+      "category_id": 5,
+      "price": 15.99,
+      "image": "../../assets/Born a Crime by Trevor Noah.jpg"
+    },
+    {
+      "id": 40,
+      "title": "The Glass Castle",
+      "author": "Jeannette Walls",
+      "category_id": 5,
+      "price": 10.99,
+      "image": "../../assets/The Glass Castle by Jeannette Walls.png"
+    },
+    {
+      "id": 41,
+      "title": "A People's History of the United States",
+      "author": "Howard Zinn",
+      "category_id": 6,
+      "price": 14.99,
+      "image": "../../assets/A Young People's History of the United States.png"
+    },
+    {
+      "id": 42,
+      "title": "The Guns of August",
+      "author": "Barbara Tuchman",
+      "category_id": 6,
+      "price": 12.99,
+      "image": "../../assets/The Guns of August by Barbara Tuchman.jpg"
+    },
+    {
+      "id": 43,
+      "title": "1491",
+      "author": "Charles C. Mann",
+      "category_id": 6,
+      "price": 11.99,
+      "image": "../../assets/1491.jpg"
+    },
+    {
+      "id": 44,
+      "title": "The Rise and Fall of the Third Reich",
+      "author": "William L. Shirer",
+      "category_id": 6,
+      "price": 16.99,
+      "image": "../../assets/The Rise and Fall of the Third Reich par William L_ Shirer Audio Book (CD) _ Indigo Chapters.jpg"
+    },
+    {
+      "id": 45,
+      "title": "The Warmth of Other Suns",
+      "author": "Isabel Wilkerson",
+      "category_id": 6,
+      "price": 13.99,
+      "image": "../../assets/_The Warmth of Other Suns.jpg"
+    },
+    {
+      "id": 46,
+      "title": "The Codebreaker Girls: The Untold Story of the American Women Code Breakers of World War II",
+      "author": "Liza Mundy",
+      "category_id": 6,
+      "price": 15.99,
+      "image": "../../assets/World War II.jpg"
+    },
+    {
+      "id": 47,
+      "title": "SPQR: A History of Ancient Rome",
+      "author": "Mary Beard",
+      "category_id": 6,
+      "price": 10.99,
+      "image": "../../assets/SPQR_ A History of Ancient Rome.jpg"
+    },
+    {
+      "id": 48,
+      "title": "The Devil in the White City",
+      "author": "Erik Larson",
+      "category_id": 6,
+      "price": 11.99,
+      "image": "../../assets/[Book Review] The Devil in the White City by Erik Larson.jpg"
+    },
+    {
+      "id": 49,
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "category_id": 7,
+      "price": 12.99,
+      "image": "../../assets/50 Motivational Quotes for Startups (SUCCESS).jpg"
+    },
+    {
+      "id": 50,
+      "title": "Zero to One",
+      "author": "Peter Thiel",
+      "category_id": 7,
+      "price": 14.99,
+      "image": "../../assets/Zero to One.jpg"
+    },
+    {
+      "id": 51,
+      "title": "The 7 Habits of Highly Effective People",
+      "author": "Stephen Covey",
+      "category_id": 7,
+      "price": 9.99,
+      "image": "../../assets/The 7 Habits of Highly Effective People.jpg"
+    },
+    {
+      "id": 52,
+      "title": "The Innovator's Dilemma",
+      "author": "Clayton Christensen",
+      "category_id": 7,
+      "price": 13.99,
+      "image": "../../assets/The Innovator's Dilemma_ The Revolutionary Book That Will Change the Way You Do Business.jpg"
+    },
+    {
+      "id": 53,
+      "title": "Good to Great",
+      "author": "Jim Collins",
+      "category_id": 7,
+      "price": 11.99,
+      "image": "../../assets/Book Summary_ Good to Great by Jim Collins.png"
+    },
+    {
+      "id": 54,
+      "title": "The One Minute Manager",
+      "author": "Ken Blanchard",
+      "category_id": 7,
+      "price": 8.99,
+      "image": "../../assets/The New One Minute Manager ebook by Ken Blanchard - Rakuten Kobo.jpg"
+    },
+    {
+      "id": 55,
+      "title": "The Art of War",
+      "author": "Sun Tzu",
+      "category_id": 7,
+      "price": 7.99,
+      "image": "../../assets/The Art of War.jpg"
+    },
+    {
+      "id": 56,
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "category_id": 7,
+      "price": 10.99,
+      "image": "../../assets/Thinking, Fast and Slow.jpg"
+    },
+    {
+      "id": 57,
+      "title": "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking",
+      "author": "Samin Nosrat",
+      "category_id": 8,
+      "price": 20.99,
+      "image": "../../assets/Salt Fat Acid Heat Cookbook by World Market.jpg"
+    },
+    {
+      "id": 58,
+      "title": "The Joy of Cooking",
+      "author": "Irma S. Rombauer, Marion Rombauer Becker, Ethan Becker",
+      "category_id": 8,
+      "price": 18.99,
+      "image": "../../assets/The Joy of Cooking.jpg"
+    },
+    {
+      "id": 59,
+      "title": "How to Cook Everything",
+      "author": "Mark Bittman",
+      "category_id": 8,
+      "price": 25.99,
+      "image": "../../assets/Our Favorite Recipes from How To Cook Everything.png"
+    },
+    {
+      "id": 60,
+      "title": "The Barefoot Contessa Cookbook",
+      "author": "Ina Garten",
+      "category_id": 8,
+      "price": 27.99,
+      "image": "../../assets/Barefoot Contessa Family Style_ Easy Ideas and Recipes That Make Everyone Feel Like Family_ A Cookbook_Hardcover.jpg"
+    },
+    {
+      "id": 61,
+      "title": "Mastering the Art of French Cooking",
+      "author": "Julia Child, Louisette Bertholle, Simone Beck",
+      "category_id": 8,
+      "price": 30.99,
+      "image": "../../assets/The Best Tip You Probably Missed in Mastering the Art of French Cooking.jpg"
+    },
+    {
+      "id": 62,
+      "title": "Plenty: Vibrant Vegetable Recipes from London's Ottolenghi",
+      "author": "Yotam Ottolenghi",
+      "category_id": 8,
+      "price": 35.99,
+      "image": "../../assets/Ottolenghi.jpg"
+    },
+    {
+      "id": 63,
+      "title": "The Silver Spoon",
+      "author": "Phaidon Press",
+      "category_id": 8,
+      "price": 40.99,
+      "image": "../../assets/The Silver Spoon.jpg"
+    },
+    {
+      "id": 64,
+      "title": "Vegetarian Cooking for Everyone",
+      "author": "Deborah Madison",
+      "category_id": 8,
+      "price": 28.99,
+      "image": "../../assets/The New Vegetarian Cooking for Everyone by Deborah Madison_ 9781607745532 _ PenguinRandomHouse_com_ Books.jpg"
+    },
+    {
+      "id": 65,
+      "title": "Into the Wild",
+      "author": "Jon Krakauer",
+      "category_id": 9,
+      "price": 12.99,
+      "image": "../../assets/Into the Wild.jpg"
+    },
+    {
+      "id": 66,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "category_id": 9,
+      "price": 8.99,
+      "image": "../../assets/The Alchemist by Paulo Coelho - ₹190.jpg"
+    },
+    {
+      "id": 67,
+      "title": "A Walk in the Woods",
+      "author": "Bill Bryson",
+      "category_id": 9,
+      "price": 10.99,
+      "image": "../../assets/A Walk in the Wood.jpg"
+    },
+    {
+      "id": 68,
+      "title": "Eat, Pray, Love",
+      "author": "Elizabeth Gilbert",
+      "category_id": 9,
+      "price": 11.99,
+      "image": "../../assets/Eat Pray Love _ Not Another Book Review _ Must Read Book List.jpg"
+    },
+    {
+      "id": 69,
+      "title": "In a Sunburned Country",
+      "author": "Bill Bryson",
+      "category_id": 9,
+      "price": 9.99,
+      "image": "../../assets/In a Sunburned Country.png"
+    },
+    {
+      "id": 70,
+      "title": "The Lost City of Z",
+      "author": "David Grann",
+      "category_id": 9,
+      "price": 14.99,
+      "image": "../../assets/The Lost City of Z.jpg"
+    },
+    {
+      "id": 71,
+      "title": "Turn Right at Machu Picchu",
+      "author": "Mark Adams",
+      "category_id": 9,
+      "price": 13.99,
+      "image": "../../assets/Turn Right at Machu Picchu by Mark Adams_ 9780452297982 _ PenguinRandomHouse_com_ Books.jpg"
+    },
+    {
+      "id": 72,
+      "title": "Travels with Charley",
+      "author": "John Steinbeck",
+      "category_id": 9,
+      "price": 9.99,
+      "image": "../../assets/Travels With Charlie In Search Of America, By_ John Steinbeck - Sterling Terrell.jpg"
+    },
+    {
+      "id": 73,
+      "title": "The Story of Art",
+      "author": "E.H. Gombrich",
+      "category_id": 10,
+      "price": 15.99,
+      "image": "../../assets/The Story of Art_ 0000.jpg"
+    },
+    {
+      "id": 74,
+      "title": "Ways of Seeing",
+      "author": "John Berger",
+      "category_id": 10,
+      "price": 12.99,
+      "image": "../../assets/Ways of Seeing _ John Berger.jpg"
+    },
+    {
+      "id": 75,
+      "title": "Art & Fear: Observations On the Perils (and Rewards) of Artmaking",
+      "author": "David Bayles and Ted Orland",
+      "category_id": 10,
+      "price": 9.99,
+      "image": "../../assets/Art & Fear.jpg"
+    },
+    {
+      "id": 76,
+      "title": "The Art of Color: The Subjective Experience and Objective Rationale of Color",
+      "author": "Johannes Itten",
+      "category_id": 10,
+      "price": 14.99,
+      "image": "../../assets/art of colors.jpg"
+    },
+    {
+      "id": 77,
+      "title": "Art: A Brief History",
+      "author": "Michael F. Zimmermann",
+      "category_id": 10,
+      "price": 19.99,
+      "image": "../../assets/Art A Brief History.jpg"
+    },
+    {
+      "id": 78,
+      "title": "The Shock of the New",
+      "author": "Robert Hughes",
+      "category_id": 10,
+      "price": 16.99,
+      "image": "../../assets/The Shock of the New_ Art and the Century of Change.jpg"
+    },
+    {
+      "id": 79,
+      "title": "Artificial Hells: Participatory Art and the Politics of Spectatorship",
+      "author": "Claire Bishop",
+      "category_id": 10,
+      "price": 11.99,
+      "image": "../../assets/Artificial Hells, Claire Bishop _ 9781844676903 _ Boeken _ bol_com.jpg"
+    },
+    {
+      "id": 80,
+      "title": "Art as Therapy",
+      "author": "Alain de Botton and John Armstrong",
+      "category_id": 10,
+      "price": 13.99,
+      "image": "../../assets/Art as Therapy.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "id": 6,
+      "title": "The First Law Trilogy",
+      "author": "Joe Abercrombie",
+      "category_id": 1,
+      "price": 9.99,
+      "image": "../../assets/The First Law by Joe Abercrombie.jpg"
+    }
+  ]
+}

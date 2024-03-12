@@ -1,0 +1,15 @@
+.row{
+    display: flex;
+    text-align: center;
+    
+}
+img{
+    height: 200px;
+    border: 2px solid peachpuff;
+
+}
+.card{
+    background-color: rgba(136, 160, 160, 0.2);
+    border: 2px solid peachpuff;
+    color: #f1f1f1;
+}

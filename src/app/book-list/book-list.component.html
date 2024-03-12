@@ -1,0 +1,26 @@
+<section>
+  <div class="container ">
+    <h1 class="text text-center mt-4" style=" color: #f1f1f1; "> we have the best collection of books </h1>
+    <div class="row">
+      <div class="col-md-3 mb-3 mt-5" *ngFor="let book of books">
+        <div class="card">
+          <div class="bg-image hover-overlay" mdbRipple rippleColor="light">
+            <img src="{{book.image}}" class="card-img-top img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body m-2">
+            <h5 class="card-title"><b>Title: </b>{{book.title}}</h5>
+            <p class="card-text"><b>Author: </b>{{book.author}}</p>
+            <p class="card-text"><b>Price: </b>{{book.price| currency}}</p>
+              <div class="text text-center">
+                <button type="submit" class="btn btn-primary w-100" (click)="addToCart(book)">Add to Cart</button>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
